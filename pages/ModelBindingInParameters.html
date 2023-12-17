@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/res.css" />
+    <title>Model Binding In Parameters</title>
+</head>
+
+<body>
+    <header>
+        Backend2
+        <nav>
+            <a href="/">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="result"></div>
+        <form id="calc">
+            <h1>ModelBindingInParameters</h1>
+            <input type="text" id="first-value" />
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="text" id="second-value" />
+            <input type="submit" class="submit" value="Submit" />
+        </form>
+    </main>
+
+    <footer>© 2023 - Backend2</footer>
+    <script src="CalcService.js"></script>
+</body>
+
+</html>
